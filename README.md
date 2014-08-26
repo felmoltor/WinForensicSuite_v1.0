@@ -3,8 +3,8 @@ WinForensicSuite_v1.0
 
 Basic information recolection batch script to retrieve information of a possibly infected Window machine
 
-This scipt retrieves information of a possibly infected Windows machine with the *native Windows tools* and with 
-a little help of *external third party tools* to detect possible rootkits (gmer, catchme.exe, mrb.exe, etc...) along 
+This scipt retrieves information of a possibly infected Windows machine with the __native Windows tools__ and with 
+a little help of __external third party tools__ to detect possible rootkits (gmer, catchme.exe, mrb.exe, etc...) along 
 with a memory dump with dumpit.exe to further analyze later and take the decision about if this Windows box needs a real
 forensic process or not.
 
@@ -111,31 +111,31 @@ Scanning
 
 Creating archive 20140826_Evidencias_PORFFMT.7z
 
-Compressing  audit.results\administradores.PORFFMT.txt
+Compressing  audit.results\administradores.PORFMT.txt
 Compressing  audit.results\eventlog\application.evt.txt
-Compressing  audit.results\conexiones.NetBIOS.PORFFMT.txt
-Compressing  audit.results\drivers.PORFFMT.txt
-Compressing  audit.results\firewall.naob.PORFFMT.txt
-Compressing  audit.results\interfaces.PORFFMT.txt
-Compressing  audit.results\netstat.naob.PORFFMT.txt
-Compressing  audit.results\procesos.y.servicios.PORFFMT.txt
-Compressing  audit.results\process.list.PORFFMT.txt
-Compressing  audit.results\rutas.PORFFMT.txt
+Compressing  audit.results\conexiones.NetBIOS.PORFMT.txt
+Compressing  audit.results\drivers.PORFMT.txt
+Compressing  audit.results\firewall.naob.PORFMT.txt
+Compressing  audit.results\interfaces.PORFMT.txt
+Compressing  audit.results\netstat.naob.PORFMT.txt
+Compressing  audit.results\procesos.y.servicios.PORFMT.txt
+Compressing  audit.results\process.list.PORFMT.txt
+Compressing  audit.results\rutas.PORFMT.txt
 Compressing  audit.results\eventlog\security.evt.txt
-Compressing  audit.results\servicios.PORFFMT.txt
-Compressing  audit.results\shares.PORFFMT.txt
-Compressing  audit.results\startup.programs.PORFFMT.txt
+Compressing  audit.results\servicios.PORFMT.txt
+Compressing  audit.results\shares.PORFMT.txt
+Compressing  audit.results\startup.programs.PORFMT.txt
 Compressing  audit.results\eventlog\system.evt.txt
-Compressing  audit.results\systeminfo.PORFFMT.txt
-Compressing  audit.results\tareas.PORFFMT.txt
-Compressing  audit.results\tasklist.PORFFMT.txt
-Compressing  audit.results\usuarios.PORFFMT.txt
+Compressing  audit.results\systeminfoPORFMT.txt
+Compressing  audit.results\tareas.PORFMT.txt
+Compressing  audit.results\tasklist.PORFMT.txt
+Compressing  audit.results\usuarios.PORFMT.txt
 Compressing  audit.results\wmic.startup.txt
-Compressing  audit.results\registry\HKCC.PORFFMT.reg
-Compressing  audit.results\registry\HKCR.PORFFMT.reg
-Compressing  audit.results\registry\HKCU.PORFFMT.reg
-Compressing  audit.results\registry\HKLM.PORFFMT.reg
-Compressing  audit.results\registry\HKU.PORFFMT.reg
+Compressing  audit.results\registry\HKCC.PORFMT.reg
+Compressing  audit.results\registry\HKCR.PORFMT.reg
+Compressing  audit.results\registry\HKCU.PORFMT.reg
+Compressing  audit.results\registry\HKLM.PORFMT.reg
+Compressing  audit.results\registry\HKU.PORFMT.reg
 Compressing  audit.results\RootkitRemover_20140826_181926.log
 
 Everything is Ok
