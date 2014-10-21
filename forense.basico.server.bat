@@ -22,6 +22,7 @@ set EXEROOTKITCATCHME=1
 rem http://www2.gmer.net/mbr/mbr.exe
 set EXEROOTKITMBR=1
 set EXEROOTKITGMER=1
+set FINDMUTANTS=1
 rem set EXEROOTKITSPH=1 rem https://secure2.sophos.com/en-us/products/free-tools/virus-removal-tool/download.aspx
 
 rem DIRECTORIES:
@@ -180,6 +181,14 @@ IF %EVTLOGDUMP%==1 (
 ) ELSE (
 	echo No se ejecuta el volcado de eventos del sistema
 )
+
+IF %FINDMUTANTS%==1 (
+	echo Buscando los mutexes del equipo...
+	%TOOLSDIR%\hndl.exe | findstr Mutant > %RESULTDIR%/mutexes.%COMPUTERNAME%.txt
+) ELSE (
+	echo Saltamos paso para listar los mutexes del equipo
+)
+
 
 IF %EXEROOTKITGMER%==1 (
 	echo Buscando rootkits con gmer
